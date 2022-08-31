@@ -1,0 +1,243 @@
+
+  :root {
+    --brand-color: #212121;
+    --brand-white-color: #ffffff;
+    --shadow: 0px 4.45291px 1.11323px rgba(0, 0, 0, 0.67);
+  }
+  
+  
+  body {
+    background-image: url(/images/football-stadium-with-stands-full-fans-waiting-night-game\ 1.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Commissioner', 'Mont';
+  }
+
+
+
+  .container {
+    width: 1600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+
+  p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .link {
+    text-decoration: none;
+  }
+
+
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    padding-bottom: 0px;
+  }
+
+
+
+  /* **********************HEADER******************** */
+
+.header {
+  padding-top: 35px;
+  padding-bottom: 55px;
+}
+
+.header-navigation {
+  display: flex;
+}
+
+.header-lang {
+  margin-left: auto;
+}
+
+.lang-activity {
+  width: 141.08px;
+height: 48.46px;
+  cursor: pointer;
+  border: none;
+  background: #232325;
+box-shadow: inset 0px 4.30787px 10.7697px rgba(0, 0, 0, 0.1);
+border-radius: 10.7697px;
+}
+
+
+  /* **************HERO**************** */
+.section-hero {
+  display: flex;
+}
+
+
+  .title-hero {
+    font-family: 'Mont';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 77px;
+    color: #FFFFFF;
+    text-shadow: 0px 4.45291px 1.11323px rgba(0, 0, 0, 0.67);
+    padding-bottom: 10px;
+}
+
+
+.hero-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    border: none;
+    width: 554px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: var(--brand-white-color);
+    
+    transition: color 250ms var(--cubic-animation), background-color 250ms var(--cubic-animation);
+
+    background: linear-gradient(360deg, #FFBB00 0%, #FFCF00 100%), #FFFFFF;
+border-radius: 12.3134px;
+  }
+
+
+  .hero-promo {
+    padding-top: 22px;
+    font-family: 'Commissioner';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+
+color: #FFBB00;
+
+text-shadow: 0px 1.23134px 4.92535px rgba(0, 0, 0, 0.8);
+padding-bottom: 20px;
+  }
+
+
+  .hero-register {
+    font-family: 'Commissioner';
+    font-style: normal;
+    text-transform: uppercase;
+    background: #FFBB00;
+border-radius: 55.4102px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--brand-color);
+  transition: color 250ms var(--cubic-animation), background-color 250ms var(--cubic-animation);
+opacity: 0.5;
+  }
+
+
+
+  .hero-rules {
+    font-family: 'Mont';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 17px;
+    text-transform: uppercase;
+
+  background: rgba(24, 24, 24, 0.5);
+    border: 1.23134px solid #777777;
+    border-radius: 55.4102px;
+
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--brand-white-color);
+  transition: color 250ms var(--cubic-animation), background-color 250ms var(--cubic-animation);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  }
+
+
+  .hero-text {
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+color: #FFFFFF;
+display: flex; 
+  }
+
+.hero-img {
+float: right;
+}
+
+
+.numbers{
+  font-family: 'Mont';
+font-style: italic;
+  font-weight: 800;
+font-size: 120px;
+line-height: 153px;
+opacity: 0.5;
+/* border: 2px solid #FFFFFF; */
+}
+
+.subtitle-text {
+  font-family: 'Mont';
+font-style: italic;
+  font-weight: 800;
+font-size: 30px;
+line-height: 38px;
+text-transform: uppercase;
+color: #FFE300;
+}
+
+.item-text {
+  font-family: 'Mont';
+font-style: italic;
+  font-weight: 700;
+font-size: 21px;
+line-height: 27px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+}
